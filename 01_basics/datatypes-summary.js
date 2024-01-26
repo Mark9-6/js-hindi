@@ -37,3 +37,15 @@ myfunction()
 console.log(typeof anotherid);
 console.log(anotherid);
 
+
+/////////////////////////////////////////////////////////////////////////////
+// Stack(Primitive) , Heap(used in Non Primitive)
+
+
+let myname  = "mark"
+console.log(typeof  myname);
+let anothername = myname
+anothername = "swat"
+console.log(myname);
+console.log(anothername);
+
