@@ -68,7 +68,7 @@ console.log(returnsecondvalueinarray(mynewarray));
 console.log(returnsecondvalueinarray(mynewarray));
 console.log(returnsecondvalueinarray([200,400,1000,500]));
 
-
+           
 
 
     
