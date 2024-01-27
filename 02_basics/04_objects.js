@@ -41,14 +41,51 @@ const users = [
         name: "mark"
     }
 ]
-console.log(users[1]);
-console.log(users[0].email);
+// console.log(users[1]);
+// console.log(users[0].email);
 
-console.log(tinderuser)
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(tinderuser)
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isloggedin'));  // check karta hai uske pass ye property hai 
-console.log(tinderuser.hasOwnProperty('adress')); // false because property NA 
+// console.log(tinderuser.hasOwnProperty('isloggedin'));  // check karta hai uske pass ye property hai 
+// console.log(tinderuser.hasOwnProperty('adress')); // false because property NA 
+
+
+const course = {
+
+    coursename: "js in hindi",
+    price: "999",
+    courseinstructor: "hitesh"
+
+}
+
+const{courseinstructor : instructor} = course
+// console.log(instructor);  // badiya se course.courseinstructor ni likhna parega
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "mark")
+
+// {
+
+// "name" : "swastik",                        // API             //this is JSON simple object nameless
+// "coursename" : "js in hindi ",
+// "price" : "free"
+
+// }
+
+[
+  {},
+  {},
+  {}
+
+
+
+]
+
+
 
