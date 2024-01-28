@@ -12,8 +12,9 @@
 } )();
 
 ( (name) => {
-    console.log("db connected ${name}")
+    console.log("db connected ${name}")    //arrow function 
 } )()
+
 
 
 
