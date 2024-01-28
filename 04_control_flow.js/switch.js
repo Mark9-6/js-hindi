@@ -1,50 +1,50 @@
 const month = 3
 switch (month) {
     case 1:
-        console.log("january");
+        console.log("january")
         break;
     case 2:
-        console.log("feb");
+        console.log("feb")              
         break;
     case 3:
-        console.log("march");
+        console.log("march")
         break;
 
     case 4:
-         console.log("april");
+         console.log("april")
         break;
     case 5: 
-    console.log("may");
-        break;
+    console.log("may")
+        break;   
     case 6: 
-    console.log("june");
+    console.log("june")
         break;
     case 7:
-         console.log("july");
+         console.log("july")
 
         break;
     case 8:
-         console.log("august");
+         console.log("august")
 
         break;
     case 9:
-         console.log("sept");
+         console.log("sept")
 
         break;
     case 10:
-         console.log("oct");
+         console.log("oct")
 
         break;
     case 11:
-         console.log("nov");
+         console.log("nov")
 
         break;
     case 12:
-         console.log("dec");
+         console.log("dec")
 
         break;
         default :
-        console.log("error");
+        console.log("error")
         break;
 
 
