@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>chai aur code</h1>
+    <button id="stop">Stop</button>
 </body>
+<script>
+    const saySwastik = function(){
+        console.log("Swastik")
+
+    }
+    const  changetext = function(){
+        document.querySelector('h1').innerHTML = "best js course"
+    }
+const changeme = setTimeout(  changetext , 2000)
+
+ document.querySelector('#stop')
+ addEventListener('click' , function(){
+    clearTimeout(changeme)
+    console.log("Stopped")
+ })
+
+
+</script>
 </html>
